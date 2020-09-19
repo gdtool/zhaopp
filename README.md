@@ -1,9 +1,8 @@
 # zhao PP (片片 OR 盘盘 ?)
+<p align="center"><img src="https://github.com/gdtool/zhaopp/raw/master/assets/images/index.png" /></p>
+<p align="center">https://zhao.pp.ua 一个基于`ElasticSearch`的Google Drive 搜索引擎,**快速**,**高效**,关键`可直接下载`</p>
 
-https://zhao.pp.ua 一个基于`ElasticSearch`的Google Drive 搜索引擎,**快速**,**高效**,关键`可直接下载`
-
-
-![index](https://github.com/gdtool/zhaopp/raw/master/assets/images/index.png "index.png")
+***
 
 ## 开发背景
 由于gd现在转存受限于1.5T限制,大家都在摸索一个新的资源分享方式;
@@ -22,7 +21,7 @@ https://zhao.pp.ua 一个基于`ElasticSearch`的Google Drive 搜索引擎,**快
 - 可定义文件大小范围
 - 最后、最后----**可直接下载**
 
-![help](https://github.com/gdtool/zhaopp/raw/master/assets/images/help.png "help.png")
+<p align="center"><img src="https://github.com/gdtool/zhaopp/raw/master/assets/images/help.png" /></p>
 
 ## 贡献资源
 将`gd-utils@googlegroups.com`加入你的团队盘,然后告知作者(tg:[@haopian](https://t.me/haopian "@haopian") 群组:[@zhaopp](https://t.me/zhaopp "@zhaopp"))
