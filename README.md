@@ -4,7 +4,6 @@ https://zhao.pp.ua 一个基于`ElasticSearch`的Google Drive 搜索引擎,**快
 
 
 ![index](https://github.com/gdtool/zhaopp/raw/master/assets/images/index.png "index.png")
-# 程序简介
 
 ## 开发背景
 由于gd现在转存受限于1.5T限制,大家都在摸索一个新的资源分享方式;
