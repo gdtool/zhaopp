@@ -1,0 +1,103 @@
+/*!
+ * Waves v0.7.5
+ * http://fian.my.id/Waves
+ * 
+ * Copyright 2014-2016 Alfiana E. Sibuea and other contributors
+ * Released under the MIT license
+ * https://github.com/fians/Waves/blob/master/LICENSE
+ */.md-waves-effect {
+	position:relative;
+	cursor:pointer;
+	display:inline-block;
+	overflow:hidden;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	user-select:none;
+	-webkit-tap-highlight-color:transparent
+}
+.md-waves-effect .md-waves-ripple {
+	position:absolute;
+	border-radius:50%;
+	width:100px;
+	height:100px;
+	margin-top:-50px;
+	margin-left:-50px;
+	opacity:0;
+	background:rgba(0,0,0,.2);
+	background:radial-gradient(rgba(0,0,0,.2) 0,rgba(0,0,0,.3) 40%,rgba(0,0,0,.4) 50%,rgba(0,0,0,.5) 60%,hsla(0,0%,100%,0) 70%);
+	transition:all .5s ease-out;
+	transition-property:transform,opacity;
+	transform:scale(0) translate(0);
+	pointer-events:none
+}
+.md-waves-effect.md-waves-light .md-waves-ripple {
+	background:hsla(0,0%,100%,.4);
+	background:radial-gradient(hsla(0,0%,100%,.2) 0,hsla(0,0%,100%,.3) 40%,hsla(0,0%,100%,.4) 50%,hsla(0,0%,100%,.5) 60%,hsla(0,0%,100%,0) 70%)
+}
+.md-waves-effect.md-waves-classic .md-waves-ripple {
+	background:rgba(0,0,0,.2)
+}
+.md-waves-effect.md-waves-classic.md-waves-light .md-waves-ripple {
+	background:hsla(0,0%,100%,.4)
+}
+.md-waves-notransition {
+	transition:none!important
+}
+.md-waves-button,.md-waves-circle {
+	transform:translateZ(0);
+	-webkit-mask-image:-webkit-radial-gradient(circle,#fff 100%,#000 0)
+}
+.md-waves-button,.md-waves-button-input,.md-waves-button:hover,.md-waves-button:visited {
+	white-space:nowrap;
+	vertical-align:middle;
+	cursor:pointer;
+	border:none;
+	outline:none;
+	color:inherit;
+	background-color:transparent;
+	font-size:1em;
+	line-height:1em;
+	text-align:center;
+	text-decoration:none;
+	z-index:1
+}
+.md-waves-button {
+	padding:.85em 1.1em;
+	border-radius:.2em
+}
+.md-waves-button-input {
+	margin:0;
+	padding:.85em 1.1em
+}
+.md-waves-input-wrapper {
+	border-radius:.2em;
+	vertical-align:bottom
+}
+.md-waves-input-wrapper.md-waves-button {
+	padding:0
+}
+.md-waves-input-wrapper .md-waves-button-input {
+	position:relative;
+	top:0;
+	left:0;
+	z-index:1
+}
+.md-waves-circle {
+	text-align:center;
+	width:2.5em;
+	height:2.5em;
+	line-height:2.5em;
+	border-radius:50%
+}
+.md-waves-float {
+	-webkit-mask-image:none;
+	box-shadow:0 1px 1.5px 1px rgba(0,0,0,.12);
+	transition:all .3s
+}
+.md-waves-float:active {
+	box-shadow:0 8px 20px 1px rgba(0,0,0,.3)
+}
+.md-waves-block {
+	display:block
+}
