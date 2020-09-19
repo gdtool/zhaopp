@@ -30,3 +30,6 @@ https://zhao.pp.ua 一个基于`ElasticSearch`的Google Drive 搜索引擎,**快
 - 无私奉献的精神,像站长一样
 - 搜索结果直接指向你的gd文件夹,使用更方便
 
+### 鸣谢
+* [sov2ex](https://github.com/Bynil/sov2ex "sov2ex")
+* [elasticsearch](https://github.com/elastic/elasticsearch "elasticsearch")
