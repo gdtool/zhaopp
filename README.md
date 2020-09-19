@@ -19,6 +19,7 @@
 
 ## 贡献资源
 将`gd-utils@googlegroups.com`加入你的团队盘；
+> 或者将共享链接更改为`知道链接的任何人`
 
 然后告知作者(tg:[@haopian](https://t.me/haopian "@haopian") 群组:[@zhaopp](https://t.me/zhaopp "@zhaopp"))
 
