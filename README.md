@@ -18,7 +18,12 @@
 
 
 ## 贡献资源
-将`gd-utils@googlegroups.com`加入你的团队盘,然后告知作者(tg:[@haopian](https://t.me/haopian "@haopian") 群组:[@zhaopp](https://t.me/zhaopp "@zhaopp"))
+将`gd-utils@googlegroups.com`加入你的团队盘；
+
+然后告知作者(tg:[@haopian](https://t.me/haopian "@haopian") 群组:[@zhaopp](https://t.me/zhaopp "@zhaopp"))
+
+最好在这里记录一下，方便大家查找 [issues](https://github.com/gdtool/zhaopp/issues "issues")
+
 
 #### 贡献资源的好处
 - 无私奉献的精神,像站长一样
