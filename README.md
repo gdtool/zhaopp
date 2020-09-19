@@ -16,6 +16,14 @@
 
 **12**个团队盘; **301**万文件; **1.3**P资源
 
+
+## 贡献资源
+将`gd-utils@googlegroups.com`加入你的团队盘,然后告知作者(tg:[@haopian](https://t.me/haopian "@haopian") 群组:[@zhaopp](https://t.me/zhaopp "@zhaopp"))
+
+#### 贡献资源的好处
+- 无私奉献的精神,像站长一样
+- 搜索结果直接指向你的gd文件夹,使用更方便
+
 ## 功能
 - 可搜索, 可排除关键字
 - 可定义超链接前缀,比如链接到自己的GDindex
@@ -24,11 +32,6 @@
 
 <p align="center"><img src="https://github.com/gdtool/zhaopp/raw/master/assets/images/help.png" /></p>
 
-## 贡献资源
-将`gd-utils@googlegroups.com`加入你的团队盘,然后告知作者(tg:[@haopian](https://t.me/haopian "@haopian") 群组:[@zhaopp](https://t.me/zhaopp "@zhaopp"))
-#### 贡献资源的好处
-- 无私奉献的精神,像站长一样
-- 搜索结果直接指向你的gd文件夹,使用更方便
 
 ### 鸣谢
 * [sov2ex](https://github.com/Bynil/sov2ex "sov2ex")
