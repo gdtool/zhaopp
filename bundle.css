@@ -192,6 +192,7 @@ body {
     color: #d46517;
     text-transform: capitalize;
     text-decoration: none;
+    font-weight:bolder;
 }
 .searchpage .searchresults {
     width: 100%
