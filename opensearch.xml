@@ -1,0 +1,9 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+  <ShortName>搜Google Drive</ShortName>
+  <Description>搜Google Drive</Description>
+  <InputEncoding>UTF-8</InputEncoding>
+  <Image width="16" height="16" type="image/x-icon">https://cdn.jsdelivr.net/gh/gdtool/zhaopp/favicon1.ico</Image>
+  <Url type="text/html" method="get" template="https://zhao.pp.ua/?q={searchTerms}&amp;ref=opensearch"/>
+  <moz:SearchForm>https://zhao.pp.ua/</moz:SearchForm>
+</OpenSearchDescription>
