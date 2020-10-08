@@ -24,9 +24,8 @@
 资源的壮大,离不开大家的分享
 
 将`gd-utils@googlegroups.com`加入你的团队盘；
-> 或者将共享链接更改为`知道链接的任何人`(不推荐)
 
-然后告知作者(tg:[@haopian](https://t.me/haopian "@haopian") 群组:[@zhaopp](https://t.me/zhaopp "@zhaopp"))
+--然后告知作者(tg:[@haopian](https://t.me/haopian "@haopian") 群组:[@zhaopp](https://t.me/zhaopp "@zhaopp"))--
 
 最好在这里记录一下，方便大家查找 [issues](https://github.com/gdtool/zhaopp/issues "issues")
 
