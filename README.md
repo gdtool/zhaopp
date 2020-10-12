@@ -2,7 +2,7 @@
 <p align="center"><img src="https://cdn.jsdelivr.net/gh/gdtool/zhaopp/assets/images/logo@2x.png?t=111" /></p>
 
 
-#### https://GeZhong.vip 一个基于`ElasticSearch`的Google Drive 搜索引擎,**快速**,**高效**,关键：`可直接下载`
+#### https://GeZhong.vip  http://zhao.pp.ua/ 一个基于`ElasticSearch`的Google Drive 搜索引擎,**快速**,**高效**,关键：`可直接下载`
 
 ***
 ## 前端源码
