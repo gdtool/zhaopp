@@ -1,7 +1,7 @@
-# zhao PP (片片 OR 盘盘 ?)
+# 各种VIP
 <p align="center"><img src="https://cdn.jsdelivr.net/gh/gdtool/zhaopp/assets/images/logo@2x.png" /></p>
 
-#### https://zhao.pp.ua 一个基于`ElasticSearch`的Google Drive 搜索引擎,**快速**,**高效**,关键：`可直接下载`
+#### https://GeZhong.vip 一个基于`ElasticSearch`的Google Drive 搜索引擎,**快速**,**高效**,关键：`可直接下载`
 
 ***
 ## 前端源码
