@@ -1,4 +1,4 @@
-# 各种VIP （原 zhaopp ）
+# 各种VIP （原 ZhaoPP ）
 <p align="center"><img src="https://cdn.jsdelivr.net/gh/gdtool/zhaopp/assets/images/logo@2x.png?t=111" /></p>
 
 
