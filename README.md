@@ -1,6 +1,7 @@
 # 各种VIP （原 zhaopp ）
 <p align="center"><img src="https://cdn.jsdelivr.net/gh/gdtool/zhaopp/assets/images/logo@2x.png?t=111" /></p>
 
+
 #### https://GeZhong.vip 一个基于`ElasticSearch`的Google Drive 搜索引擎,**快速**,**高效**,关键：`可直接下载`
 
 ***
@@ -48,3 +49,13 @@
 ### 联系我
 * [@haopian](https://t.me/haopian "@haopian")  
 * 群组:[@zhaopp](https://t.me/zhaopp "@zhaopp")
+
+### 捐赠
+
+不得不说,这个是烧钱的项目,对服务器、CDN要求都很高
+
+是的，一直用爱发电，今天的流量已经破【7T】了，需要你的支持
+
+* [爱发电](https://afdian.net/@zhaopp "爱发电") 
+
+<p align="center"><img src="https://cdn.jsdelivr.net/gh/gdtool/zhaopp/assets/images/liuliang.png" /></p>
