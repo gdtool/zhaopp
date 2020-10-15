@@ -58,6 +58,6 @@
 
 是的，一直用爱发电，今天(2020/10/12)的流量已经破【7T】
 
-* [爱发电](https://afdian.net/@zhaopp "爱发电") 
+* [爱发电](https://afdian.net/@zhaopp "爱发电")  (**捐赠者有一个小礼包,不成敬意**)
 
 <p align="center"><img src="https://cdn.jsdelivr.net/gh/gdtool/zhaopp/assets/images/liuliang.png" /></p>
