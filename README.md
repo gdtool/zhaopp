@@ -60,4 +60,7 @@
 
 * [爱发电](https://afdian.net/@zhaopp "爱发电")  (**捐赠者有一个小礼包,不成敬意**)
 
+* [爱发电+](https://afdian.net/order/create?plan_id=c08aff500c8911ebb9b052540025c377 "爱发电+")  (**此方案有一个超级大礼包**)
+
+
 <p align="center"><img src="https://cdn.jsdelivr.net/gh/gdtool/zhaopp/assets/images/liuliang.png" /></p>
