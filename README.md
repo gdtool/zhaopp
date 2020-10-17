@@ -5,10 +5,6 @@
 #### https://GeZhong.vip  http://zhao.pp.ua/ 一个基于`ElasticSearch`的Google Drive 搜索引擎,**快速**,**高效**,关键：`可直接下载`
 
 ***
-## 前端源码
-
-[前端打包下载](https://545c.com/file/19473836-462139498 "前端打包下载") ,后端接一个ElasticSearch快速上线
-
 ## 开发背景
 由于gd现在转存受限于1.5T限制,大家都在摸索一个新的资源分享方式;
 
