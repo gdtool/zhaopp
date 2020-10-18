@@ -47,6 +47,7 @@
 ### 联系我
 * [@haopian](https://t.me/haopian "@haopian")  
 * 群组:[@zhaopp](https://t.me/zhaopp "@zhaopp")
+* 官方论坛:[https://www.gezhong.vip](https://www.gezhong.vip/)
 
 ### 捐赠
 
