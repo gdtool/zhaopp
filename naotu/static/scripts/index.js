@@ -35,7 +35,7 @@
     var page_load = function(){
         set_container_size();
         jsMind.util.dom.add_event($w,'resize',reset_container_size);
-        jsMind.util.ajax.get('/static/files/trial.jm',function(mind){
+        jsMind.util.ajax.get('https://cdn.jsdelivr.net/gh/gdtool/zhaopp/naotu/static/files/trial.jm',function(mind){
             _jm.show(mind);
         });
     };
