@@ -1,0 +1,72 @@
+body{
+    font-family: 'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans GB', 'Hiragino Sans GB W3', 'WenQuanYi Micro Hei', 'Microsoft YaHei UI', 'Microsoft YaHei', sans-serif;
+}
+.cover{
+    margin: 80px auto;
+    width:80%;
+    text-align: center;
+}
+
+.cover h1{
+    font-family: inherit;
+    font-size: 64px;
+    font-weight: normal;
+    line-height: 2;
+    text-align: center;
+}
+
+.cover p{
+    margin-bottom: 20px;
+}
+
+.cover .intro{
+    font-family: inherit;
+    font-size: 32px;
+    font-weight: normal;
+    line-height: 1.2;
+}
+
+.jsmind-trial{
+    background-color:#eee;
+}
+
+.jsmind-container{
+    margin:0 auto;
+    height:700px;
+}
+
+.jsmind-container jmexpander{
+    width:13px;
+    height:13px;
+}
+
+.footer{
+    padding-top:40px;
+    height: 200px;
+}
+
+.signup{
+    font-family: inherit;
+    padding-top: 60px;
+    margin: auto;
+    width: 50%;
+}
+
+.signup h1{
+    font-family: inherit;
+    margin-bottom: 30px;
+}
+
+.signup .form-group{
+    font-size: 20px;
+}
+.signup label{
+    font-weight: normal;
+}
+.signup input{
+    font-size: 16px;
+    height: 40px;
+}
+.signup p{
+    font-size: 16px;
+}
