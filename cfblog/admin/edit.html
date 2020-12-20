@@ -110,7 +110,7 @@
     //保存按钮(编辑)
     function saveEdit(){
         $.ajax({
-            type: "POST",
+            type: "GET",
             dataType: "json",
             url: "/admin/saveEdit/" ,//url
             data: $('#editForm').serialize(),
@@ -125,9 +125,9 @@
             return false; 
           }
         $.ajax({
-            type: "POST",
+            type: "GET",
             dataType: "json",
-            url: "/admin/delete/" ,//url
+            url: "/admin/delete/"+$('#id').val() ,//url
             data: {"id":$('#id').val()},
             success: function (result) {
                 alert(result.msg);
