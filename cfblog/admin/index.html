@@ -181,6 +181,7 @@
             postURL=  "/admin/saveAddNew/";
         $.ajax({
             type: "POST",
+		traditional: true ,
             dataType: "json",
             url: "/admin/saveAddNew/" ,//url
             data: $('#addNewForm').serialize(),
@@ -208,6 +209,7 @@
         }
         $.ajax({
             type: "POST",
+		traditional: true ,
             dataType: "json",
             url: "/admin/saveConfig/" ,//url
             data: $('#configForm').serialize(),
@@ -223,6 +225,7 @@
           }
         $.ajax({
             type: "POST",
+		traditional: true ,
             dataType: "json",
             url: "/admin/publish/" ,//url
             success: function (result) {
