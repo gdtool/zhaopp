@@ -176,14 +176,13 @@
             
         }
         var postURL = "/admin/saveEdit/";
-        alert($('#id').val());
         if ($('#id').val() == "" || $('#id').val() == null)
             postURL=  "/admin/saveAddNew/";
         $.ajax({
             type: "GET",
 		traditional: true ,
             dataType: "json",
-            url: "/admin/saveAddNew/" ,//url
+            url: postURL ,//url
             data: $('#addNewForm').serialize(),
             success: function (result) {
                 if ("id" in result){
