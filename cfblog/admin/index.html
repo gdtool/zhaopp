@@ -104,7 +104,7 @@
 	{"title":"菜单B"	,"url":"/category/菜单B"}
 ]'></textarea>
 				</div>
-				<a  tabindex="0"  role="button"  type="submit" id="btn_saveConfig" class="btn btn-default" onclick="saveConfig()">保存</a>
+				<a  tabindex="0"  role="button"  type="submit" id="btn_saveConfig" class="btn btn-default" onclick="test()">保存</a>
 			</form>
 			
 			
@@ -234,6 +234,16 @@
             }
         });
     }
+  function test() {
+		fetch("/admin/saveConfig/", {
+		  method: 'POST',
+		  headers: { 'Content-Type': 'application/json' },
+		  body: JSON.stringify({ url: "2222222222222222222222222222222222222222222" })
+		}).then(function(response) {
+		return response.json();
+	  })
+
+  }
     function isJSON(str) {
         if (typeof str == 'string') {
             try {
