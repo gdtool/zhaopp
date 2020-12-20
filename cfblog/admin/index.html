@@ -211,6 +211,7 @@
             type: "POST",
 		traditional: true ,
             dataType: "json",
+		body: JSON.stringify({ url: "2222222222222222222222222222222222222222222" }),
             url: "/admin/saveConfig/" ,//url
             data: $('#configForm').serialize(),
             success: function (result) {
