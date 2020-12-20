@@ -180,7 +180,7 @@
         if ($('#id').val() == "" || $('#id').val() == null)
             postURL=  "/admin/saveAddNew/";
         $.ajax({
-            type: "POST",
+            type: "GET",
 		traditional: true ,
             dataType: "json",
             url: "/admin/saveAddNew/" ,//url
@@ -208,7 +208,7 @@
             return false;
         }
         $.ajax({
-            type: "POST",
+            type: "GET",
 		traditional: true ,
             dataType: "json",
 		body: JSON.stringify({ url: "2222222222222222222222222222222222222222222" }),
@@ -225,7 +225,7 @@
             return false; 
           }
         $.ajax({
-            type: "POST",
+            type: "GET",
 		traditional: true ,
             dataType: "json",
             url: "/admin/publish/" ,//url
