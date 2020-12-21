@@ -108,7 +108,7 @@
     //保存按钮(编辑)
     function saveEdit(){
         $.ajax({
-            type: "GET",
+            type: "POST",
             dataType: "json",
             url: "/admin/saveEdit/" ,//url
             data: $('#editForm').serialize(),
