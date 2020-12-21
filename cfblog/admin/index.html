@@ -54,7 +54,7 @@
 	</div>
 	<div class="tab-pane fade in active" id="new">
 		<div class="container">
-			<h3>新增</h3>   
+			<h3 id="labelNew">新增</h3>   
 			<form id="addNewForm"  class="form-inline" method="post" >
 				<div class="form-group" style="width: 98%">
 					<input type="hidden" class="form-control" name="id" id="id" >
@@ -187,6 +187,7 @@
             success: function (result) {
                 if ("id" in result){
                     $('#id').val(result.id);
+		    $('#labelNew').val("编辑"+result.id);
                     alert(result.msg);
                 }
                 else 
