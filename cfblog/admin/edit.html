@@ -110,7 +110,7 @@
         $.ajax({
             type: "POST",
             dataType: "json",
-			contentType: "form",
+			contentType: "multipart/form-data",
             url: "/admin/saveEdit/" ,//url
             data: $('#editForm').serialize(),
             success: function (result) {
@@ -126,8 +126,7 @@
         $.ajax({
             type: "POST",
             dataType: "json",
-			//contentType: "application/json; charset=utf-8",
-			contentType: "form",
+			contentType: "application/json; charset=utf-8",
             url: "/admin/delete/"+$('#id').val() ,//url
             data: {"id":$('#id').val()},
             success: function (result) {
