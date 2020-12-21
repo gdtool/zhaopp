@@ -36,7 +36,7 @@
 		<div class="container">
 			<h3>编辑文章</h3>   
 
-			<form id="editForm" class="form-inline" method="post"  action="/" >
+			<form id="editForm" class="form-inline"  action="/" >
 
 				<div class="form-group" style="width: 98%">
 					<input type="hidden" class="form-control" name="id" id="id" readonly required="true">
@@ -110,6 +110,7 @@
         $.ajax({
             type: "POST",
             dataType: "json",
+			contentType: "form",
             url: "/admin/saveEdit/" ,//url
             data: $('#editForm').serialize(),
             success: function (result) {
@@ -123,8 +124,10 @@
             return false; 
           }
         $.ajax({
-            type: "GET",
+            type: "POST",
             dataType: "json",
+			//contentType: "application/json; charset=utf-8",
+			contentType: "form",
             url: "/admin/delete/"+$('#id').val() ,//url
             data: {"id":$('#id').val()},
             success: function (result) {
