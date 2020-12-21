@@ -57,7 +57,7 @@
 	<div class="tab-pane fade in active" id="new">
 		<div class="container">
 			<h3 id="labelNew">新增</h3>   
-			<form id="addNewForm"  class="form-inline" method="post" >
+			<form id="addNewForm"  class="form-inline" >
 				<div class="form-group" style="width: 98%">
 					<input type="hidden" class="form-control" name="id" id="id" >
 					<input type="text" class="form-control" name="title" id="title" placeholder="标题" style="width: 100%;" required="true">
@@ -76,7 +76,7 @@
 				</div>
 				<div class="form-group">
 					<label for="exampleInputEmail2">分类</label>
-					<select class="selectpicker" multiple name="category" id="category">
+					<select class="selectpicker" multiple name="category[]" id="category">
 					</select>
 				</div>
 				<div class="form-group">
@@ -212,6 +212,7 @@
         $.ajax({
             type: "POST",
             dataType: "json",
+			
             url: "/admin/saveConfig/" ,//url
             data: $('#configForm').serialize(),
             success: function (result) {
@@ -225,7 +226,7 @@
             return false; 
           }
         $.ajax({
-            type: "GET",
+            type: "POST",
 		traditional: true ,
             dataType: "json",
             url: "/admin/publish/" ,//url
