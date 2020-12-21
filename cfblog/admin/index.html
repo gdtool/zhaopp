@@ -182,18 +182,20 @@
             postURL=  "/admin/saveAddNew/";
         $.ajax({
             type: "POST",
-		traditional: true ,
             dataType: "json",
             url: postURL ,//url
-            data: $('#addNewForm').serialize(),
+			contentType: "application/json; charset=utf-8",
+			data: JSON.stringify($("#addNewForm").serializeArray()), 
             success: function (result) {
                 if ("id" in result){
                     $('#id').val(result.id);
-		    $('#labelNew').val("编辑"+result.id);
+					$('#labelNew').text("编辑:"+result.id);
                     alert(result.msg);
                 }
                 else 
-                {alert("失败");}
+                {
+					alert("失败");
+				}
             }
         });
     }
@@ -212,9 +214,9 @@
         $.ajax({
             type: "POST",
             dataType: "json",
-			
+			contentType: "application/json; charset=utf-8",
             url: "/admin/saveConfig/" ,//url
-            data: $('#configForm').serialize(),
+			data: JSON.stringify($("#configForm").serializeArray()), 
             success: function (result) {
                 alert(result.msg);
             }
@@ -227,24 +229,14 @@
           }
         $.ajax({
             type: "POST",
-		traditional: true ,
             dataType: "json",
+			contentType: "application/json; charset=utf-8",
             url: "/admin/publish/" ,//url
             success: function (result) {
                 alert(result.msg);
             }
         });
     }
-  function test() {
-		fetch("/admin/saveConfig/", {
-		  method: 'POST',
-		  headers: { 'Content-Type': 'application/json' },
-		  body: JSON.stringify({ url: "2222222222222222222222222222222222222222222" })
-		}).then(function(response) {
-		return response.json();
-	  })
-
-  }
     function isJSON(str) {
         if (typeof str == 'string') {
             try {
