@@ -128,7 +128,7 @@
             dataType: "json",
 			contentType: "application/json; charset=utf-8",
             url: "/admin/delete/"+$('#id').val() ,//url
-            data: [{"id":$('#id').val()},
+            data: [{"id":$('#id').val()}],
             success: function (result) {
                 alert(result.msg);
             }
