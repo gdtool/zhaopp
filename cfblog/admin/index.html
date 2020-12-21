@@ -48,7 +48,7 @@
 	<div class="tab-pane fade" id="list">
 		<div class="container" >
 			<table class="table  table-striped" id="articleList">
-				  <tr><td>标题</td><td>创建日期</td></tr>
+				  <tr><td>ID</td><td>标题</td><td>创建日期</td></tr>
 			</table>
 			<input type="hidden"  name="page" id="page" value='1'>
 			<a id="loadmore" class="btn btn-default">加载更多...</a>
@@ -156,7 +156,7 @@
                     $.each(data,function(i){
                         var Info = data[i];
                         var num = i+1;
-                        tableContent += '<tr><td><a href="/admin/edit/'+Info.id+'/">'+Info.title+'</a></td><td>'+Info.createDate.replace("T","")+'</td></tr>';
+                        tableContent += '<tr><td>'+Info.id+'</td><td><a href="/admin/edit/'+Info.id+'/">'+Info.title+'</a></td><td>'+Info.createDate.replace("T","")+'</td></tr>';
      
                     })
                     $("#articleList").append(tableContent);
