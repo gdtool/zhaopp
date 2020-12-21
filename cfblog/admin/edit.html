@@ -79,8 +79,7 @@
 		var articleJson = <!--{articleJson}-->;
 		//获取分类
 		var categoryJson = <!--{categoryJson}-->;
-		//获取菜单
-		var menuJson = <!--{menuJson}-->;
+
 		
 		var mdEditor = editormd("content", {
 				//width  : "90%",
@@ -99,7 +98,6 @@
 		$('#tags').val(articleJson.tags);
 		
 		$('#WidgetCategory').val(JSON.stringify(categoryJson));
-		$('#WidgetMenu').val(JSON.stringify(menuJson));
 		var category = $('#category');
 		category.empty();
 		for (var i = 0; i < categoryJson.length; i++) {
