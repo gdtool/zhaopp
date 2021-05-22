@@ -2,7 +2,7 @@
 <p align="center"><img src="https://cdn.jsdelivr.net/gh/gdtool/zhaopp/assets/images/logo@2x.png?t=111" /></p>
 
 
-#### https://GeZhong.vip  http://zhao.pp.ua/ 一个基于`ElasticSearch`的Google Drive 搜索引擎,**快速**,**高效**,关键：`可直接下载`
+####  http://zhao.pp.ua/ 一个基于`ElasticSearch`的Google Drive 搜索引擎,**快速**,**高效**,关键：`可直接下载`
 
 ***
 ## 开发背景
@@ -48,7 +48,7 @@
 ### 联系我
 * [@haopian](https://t.me/haopian "@haopian")  
 * 群组:[@zhaopp](https://t.me/zhaopp "@zhaopp")
-* 官方论坛:[https://www.gezhong.vip](https://www.gezhong.vip/)
+
 
 ### 捐赠
 
@@ -56,6 +56,6 @@
 
 今天(2020/10/12)的流量已经破【7T】
 
-* [捐赠](https://afdian.net/@zhaopp "爱发电")  
+
 
 <p align="center"><img src="https://cdn.jsdelivr.net/gh/gdtool/zhaopp/assets/images/liuliang.png" /></p>
